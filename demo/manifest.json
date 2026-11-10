@@ -1,0 +1,224 @@
+{
+  "created": "2026-11-04 08:15:22",
+  "ckpt": "ckpt/E04_broad_unfreeze3_best.pth",
+  "split": "data/splits_other_broad.json",
+  "classes": [
+    "apple",
+    "banana",
+    "grapes",
+    "kiwi",
+    "mango",
+    "orange",
+    "pear",
+    "pineapple",
+    "pomegranate",
+    "watermelon",
+    "other"
+  ],
+  "temperature": 0.5121,
+  "threshold": 0.4789,
+  "counts": {
+    "correct": 10,
+    "other": 2,
+    "reject": 1,
+    "misclass": 1
+  },
+  "items": [
+    {
+      "index": 1,
+      "file": "demo/samples/01_correct_apple.jpg",
+      "origin": "data/processed_other_broad/apple/apple_00022.jpg",
+      "source": "test",
+      "expected": "apple",
+      "kind": "correct",
+      "note": "测试集 apple 图，判对，置信度 1.000",
+      "build": {
+        "pred": "apple",
+        "prob": 0.9996,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 2,
+      "file": "demo/samples/02_correct_banana.jpg",
+      "origin": "data/processed_other_broad/banana/banana_00059.jpg",
+      "source": "test",
+      "expected": "banana",
+      "kind": "correct",
+      "note": "测试集 banana 图，判对，置信度 1.000",
+      "build": {
+        "pred": "banana",
+        "prob": 0.9998,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 3,
+      "file": "demo/samples/03_correct_grapes.jpg",
+      "origin": "data/processed_other_broad/grapes/grapes_00030.jpg",
+      "source": "test",
+      "expected": "grapes",
+      "kind": "correct",
+      "note": "测试集 grapes 图，判对，置信度 1.000",
+      "build": {
+        "pred": "grapes",
+        "prob": 0.9998,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 4,
+      "file": "demo/samples/04_correct_kiwi.jpg",
+      "origin": "data/processed_other_broad/kiwi/kiwi_00064.jpg",
+      "source": "test",
+      "expected": "kiwi",
+      "kind": "correct",
+      "note": "测试集 kiwi 图，判对，置信度 1.000",
+      "build": {
+        "pred": "kiwi",
+        "prob": 0.9995,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 5,
+      "file": "demo/samples/05_correct_mango.jpg",
+      "origin": "data/processed_other_broad/mango/mango_00013.jpg",
+      "source": "test",
+      "expected": "mango",
+      "kind": "correct",
+      "note": "测试集 mango 图，判对，置信度 1.000",
+      "build": {
+        "pred": "mango",
+        "prob": 1.0,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 6,
+      "file": "demo/samples/06_correct_orange.jpg",
+      "origin": "data/processed_other_broad/orange/orange_00033.jpg",
+      "source": "test",
+      "expected": "orange",
+      "kind": "correct",
+      "note": "测试集 orange 图，判对，置信度 0.999",
+      "build": {
+        "pred": "orange",
+        "prob": 0.9992,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 7,
+      "file": "demo/samples/07_correct_pear.jpg",
+      "origin": "data/processed_other_broad/pear/pear_00077.jpg",
+      "source": "test",
+      "expected": "pear",
+      "kind": "correct",
+      "note": "测试集 pear 图，判对，置信度 1.000",
+      "build": {
+        "pred": "pear",
+        "prob": 0.9996,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 8,
+      "file": "demo/samples/08_correct_pineapple.jpg",
+      "origin": "data/processed_other_broad/pineapple/pineapple_00026.jpg",
+      "source": "test",
+      "expected": "pineapple",
+      "kind": "correct",
+      "note": "测试集 pineapple 图，判对，置信度 1.000",
+      "build": {
+        "pred": "pineapple",
+        "prob": 0.9998,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 9,
+      "file": "demo/samples/09_correct_pomegranate.jpg",
+      "origin": "data/processed_other_broad/pomegranate/pomegranate_00005.jpg",
+      "source": "test",
+      "expected": "pomegranate",
+      "kind": "correct",
+      "note": "测试集 pomegranate 图，判对，置信度 1.000",
+      "build": {
+        "pred": "pomegranate",
+        "prob": 1.0,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 10,
+      "file": "demo/samples/10_correct_watermelon.jpg",
+      "origin": "data/processed_other_broad/watermelon/watermelon_00008.jpg",
+      "source": "test",
+      "expected": "watermelon",
+      "kind": "correct",
+      "note": "测试集 watermelon 图，判对，置信度 1.000",
+      "build": {
+        "pred": "watermelon",
+        "prob": 0.9998,
+        "state": "fruit"
+      }
+    },
+    {
+      "index": 11,
+      "file": "demo/samples/11_other_other.jpeg",
+      "origin": "data/processed_other_broad/other/other_00061.jpeg",
+      "source": "test",
+      "expected": "other",
+      "kind": "other",
+      "note": "测试集 other（原图来自 bell pepper），判成 other，置信度 1.000",
+      "build": {
+        "pred": "other",
+        "prob": 1.0,
+        "state": "other"
+      }
+    },
+    {
+      "index": 12,
+      "file": "demo/samples/12_other_other.jpg",
+      "origin": "data/processed_other_broad/other/other_00036.jpg",
+      "source": "test",
+      "expected": "other",
+      "kind": "other",
+      "note": "测试集 other（原图来自 spinach），判成 other，置信度 1.000",
+      "build": {
+        "pred": "other",
+        "prob": 1.0,
+        "state": "other"
+      }
+    },
+    {
+      "index": 13,
+      "file": "demo/samples/13_reject_mango.jpg",
+      "origin": "data/processed_other_broad/mango/mango_00021.jpg",
+      "source": "test",
+      "expected": "mango",
+      "kind": "reject",
+      "note": "测试集里置信度最低的一张（0.355 < 阈值 0.479），触发'未识别为支持的水果'",
+      "build": {
+        "pred": "pear",
+        "prob": 0.3554,
+        "state": "reject"
+      }
+    },
+    {
+      "index": 14,
+      "file": "demo/samples/14_misclass_lemon.jpg",
+      "origin": "data/ood/lemon/lemon_0010.jpg",
+      "source": "ood",
+      "expected": "lemon",
+      "kind": "misclass",
+      "note": "OOD 集原图是 lemon（模型未训练过该类别），被判成 orange，置信度 0.999",
+      "build": {
+        "pred": "orange",
+        "prob": 0.9989,
+        "state": "fruit"
+      }
+    }
+  ]
+}

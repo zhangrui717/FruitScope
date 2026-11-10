@@ -1,0 +1,45 @@
+{
+  "_note": "class -> Fruits-360 目录名（显式、精确匹配）。绝不能按子串匹配：Apple 会命中 Pineapple。",
+  "_note2": "Fruits-360 不同版本目录名有差异，脚本会打印 unmatched / unused 列表，按实际版本增删。",
+  "_note3": "只收录'整果'目录；Grape Leaf / 干果 / 切面等不收录，避免类别语义漂移。",
+  "mapping": {
+    "apple": [
+      "Apple Red 1", "Apple Red 2", "Apple Red 3",
+      "Apple Red Delicious 1", "Apple Red Yellow 1", "Apple Red Yellow 2",
+      "Apple Golden 1", "Apple Golden 2", "Apple Golden 3",
+      "Apple Granny Smith 1", "Apple Pink Lady 1", "Apple Braeburn 1",
+      "Apple Crimson Snow 1", "Apple Hit 1"
+    ],
+    "banana": [
+      "Banana 1", "Banana 2", "Banana 3", "Banana 4",
+      "Banana Lady Finger 1", "Banana Red 1"
+    ],
+    "grapes": [
+      "Grape Blue 1", "Grape Blue 2", "Grape Blue 3", "Grape Blue 4",
+      "Grape White 1", "Grape White 2", "Grape White 3", "Grape White 4",
+      "Grape White 5", "Grape Pink 1"
+    ],
+    "kiwi": [
+      "Kiwi 1", "Kiwi 2", "Kiwi Green 1"
+    ],
+    "mango": [
+      "Mango 1", "Mango 2", "Mango Green 1", "Mango Red 1"
+    ],
+    "orange": [
+      "Orange 1", "Orange 2", "Orange 3"
+    ],
+    "pear": [
+      "Pear 1", "Pear 2", "Pear 3", "Pear Abate 1", "Pear Kaiser 1",
+      "Pear Monster 1", "Pear Red 1", "Pear Williams 1", "Pear Forelle 1"
+    ],
+    "pineapple": [
+      "Pineapple 1", "Pineapple Mini 1", "Pineapple Golden 1"
+    ],
+    "pomegranate": [
+      "Pomegranate 1", "Pomegranate 2"
+    ],
+    "watermelon": [
+      "Watermelon 1"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+run_id,date,git_commit,split,data,model,head,freeze,aug,optim,seed,val_acc,val_macro_f1,test_acc,test_ci_low,test_ci_high,test_macro_f1,test_top3,ood_reject,ood_false_reject,ece,note

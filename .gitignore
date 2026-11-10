@@ -1,0 +1,37 @@
+# 本地环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# 数据：原始与整理后的图片都不进 Git（体积大）；splits.json / manifest.csv 例外
+archive.zip
+data/raw/
+data/processed*/
+data/ood/
+data/real_holdout/
+data/manifest.csv
+data/manifest_*.csv
+
+# 训练产物
+ckpt/*.pth
+ckpt/*.json
+model/*
+!model/fruitscope.pth
+logs/
+docs/curves/
+
+# 本机环境快照和同步设置
+docs/env.md
+docs/env_lock.txt
+docs/水果识别应用-开发计划书-v2.md
+scripts/sync_to_server.ps1
+
+# 演示产物（标注图/汇总可随时重跑；demo/samples 与 demo/manifest.json 进 Git）
+demo/output/
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
